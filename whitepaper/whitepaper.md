@@ -46,17 +46,17 @@ When you buy a binary option from centralized brokers, you actually bet against 
 
 > This means that the broker must make sure it wins more than it loses[2]
 
- Traders are playing an unfair game as broker/platform can cheat them by manipulating the price feed in their favor and block traders from withdrawing. So traders may win the trade but loss their money.
+ Traders are playing an unfair game as broker/platform can cheat on them by manipulating the price feed in their favor and block traders from withdrawing. So traders may win the trade but loss their money.
 
-BlockOptions.io aim to build a independent and decentralized platform for binary options industry.
+BlockOptions.io aim to build an independent and decentralized platform for binary options industry.
 
  
 
- - Pure P2P market -  Traders bet against Bankrollers, BlockOptions.io makes profit by trade fee, not by profit share as traditional platform.
- - Guaranteed Payout - Payments are issued by smart contract direct to your ETH address. No one can block withdraws.
- - 100% Transparency and Provably Fair by getting assets price on blockchain. Therefor cheating by manipulating price feed is impossible .
+ - Pure P2P market -  Traders bet against Bankrollers, BlockOptions.io makes profit from trading fee and not from profit share as traditional platform do.
+ - Guaranteed Payout - Payments are issued by smart contract directly to your ETH address. No one can block withdraws.
+ - 100% Transparency and Provably fair by getting assets price on blockchain. Therefor cheating by manipulating price feed is impossible.
 
-We will show you how we build this 100% on-chain system, as we believe the foundations on ethereum blockchain are solid and can make a high user friendly Dapp based on it.
+We will show you how we build this 100% on-chain system, as we believe that the foundations on ethereum blockchain are solid and can be used to make a high user friendly Dapp.
 
 
 **1. Introduction**
@@ -65,7 +65,7 @@ We will show you how we build this 100% on-chain system, as we believe the found
 
 
 
-BlockOptions.io is a decentralized Binary Options Platform on Ethereum blockchain for Binary Options Industry. We do not bet against traders but provide a larger catalog of assets marketplace by letting bankrollers create varied asset contracts themselves on our platform, e.g. 70 seconds EUR/USD, 3 minutes BTC/USD, 8 hours GOLD, etc..
+BlockOptions.io is a decentralized Binary Options Platform on Ethereum blockchain. We do not bet against traders but provide a larger catalog of assets marketplace by letting bankrollers create varied asset contracts on our platform, e.g. 70 seconds EUR/USD, 3 minutes BTC/USD, 8 hours GOLD, etc..
 
 *1.1 Binary Options Industry*
 -----------------------------
@@ -73,7 +73,7 @@ BlockOptions.io is a decentralized Binary Options Platform on Ethereum blockchai
 
 
 
-Binary options "are based on a simple 'yes' or 'no' proposition: Will an underlying asset be above a certain price at a certain time? [3]
+Binary options are based on a simple 'yes' or 'no' proposition: Will an underlying asset be above a certain price at a certain time? [3]
 
  And binary options are often considered a form of gambling rather than investment because of their negative cumulative payout (the brokers have an edge over the investor) and because they require little or no knowledge of the markets. 
 
@@ -83,7 +83,7 @@ Binary options "are based on a simple 'yes' or 'no' proposition: Will an underly
 
 One of the biggest binary options platform in United States makes almost 1M profit per day. IG Group, One of the top company made $305.1 million of net trading revenue in 2016.[5].
 
-Binary options seems to have more funds compare to dice game, and there is no leading blockchain binary options platform running right now. BlockOptions.io will have big potential to be the No.1 blockchain binary options platform on the market.
+Binary options seems to have more funds compared to dice game, and there is no leading blockchain binary options platform running right now. BlockOptions.io will have big potential to be the No.1 blockchain binary options platform on the market.
 
 *1.2. Common Issues in Binary Options Industry*
 -----------------------------------------------
@@ -102,7 +102,7 @@ Some of the existing issues in the market of binary options that lockOptions.io 
 
  - Not provably fair game - Traders bet against brokers/platform in traditional platform, it can't be provably fair even if it's a regulation platform. Traders bet against bankrollers in BlockOptions.io and win rates and rewards rate are 100% transparent and unchangeable.
 
- - Company shut down or run away - Traders will lost all their money if broker company shut down or run away. It's the worst situation many traders face. By using BlockOptions.io all funds are safe even the BlockOptions.io platform can't access as all funds is stored on ethereum blockchain. 
+ - Company shut down or run away - Traders will lost all their money if broker company shut down or run away. It's the worst situation many traders face. By using BlockOptions.io all funds are safe even the BlockOptions.io platform can't access as all funds are stored on ethereum blockchain. 
 
  - Server or account hacked - In BlockOptions.io all your trades and funds are safer than traditional platform as it's impossible to hack the ethereum blockchain.
 
@@ -138,13 +138,13 @@ Blockoptions.io is the first decentralized binary options platform based on ethe
 
 BOPT - BlockOptions.io internal token - is used as dividend (100% of the profit generating by BlockOptions.io platform goes to token holders as dividend) and as second in-game currency. 
 
-We will release a MVP in July 2017 and publish further development plans according to the road-map after ICO.
+We will release the MVP in July 2017 and publish further development plans according to the road-map after ICO.
 
 *2.1 How it works?*
 -----------------
 
 
-Built 100% on blockchain, BlockOptions.io fetch asset price data from an oracle by using Orcalize service running on smart contract. We will use a build-in wallet to fetch start time price and pass it to smart contract, compare the start time price, expiry price and reward winning traders immediately by smart contract. No additional database and server-side needed. Not even the slightest window for cheating and scams. No delay payments and deny payments. Although we will simplify this on MVP version, but it will be implemented eventually.
+Built 100% on blockchain, BlockOptions.io fetch asset price data from an oracle by using Orcalize service running on smart contract. We will use a build-in wallet to fetch start time price and pass it to smart contract, compare the start time price, expiry price and award winning traders immediately by smart contract. No additional database and server-side needed. Not even the slightest window for cheating and scams. No delay payments and deny payments. Although we will simplify this in MVP version, but it will be implemented eventually.
 
 ![enter image description here](http://i.imgur.com/mNh9FEh.jpg)
 
@@ -159,7 +159,7 @@ Built 100% on blockchain, BlockOptions.io fetch asset price data from an oracle 
 
 
 
-We aim to provide the best binary options platform on the market by providing a provably fair, guaranteed Payout, 100% transparency, highest reward rate and best user friendly system to traders, obtaining more daily trade volume to make more profit. BlockOptions.io Platform didn't make money from traders loss but by fees per trade (planning charge 0.005-0.01 ETH per trade, actual fee per trade will be published before public version released).
+We aim to provide the best binary options platform on the market by providing a provably fair, guaranteed Payout, 100% transparency, highest reward rate and best user friendly system to traders, obtaining more daily trade volume to make more profit. BlockOptions.io Platform didn't make money from traders loss but from fees per trade (planning charge 0.005-0.01 ETH per trade, actual fee per trade will be published before public version released).
 
 
 
@@ -216,7 +216,7 @@ Asset’s start time price, expiry price stored in smart contract and rewards al
 **2.2.6 Traders**
 
 
-Traders send ETH or OPT directly to asset’s smart contract to trade, and get reward by smart contract automatically.
+Traders send ETH or BOPT directly to asset’s smart contract to trade, and get rewarded from smart contract automatically.
 
 
 
@@ -225,7 +225,7 @@ Traders send ETH or OPT directly to asset’s smart contract to trade, and get r
 
 
 
-Bankrollers send ETH or OPT to create an asset contract or back existintg contracts and make profit from bankrolling. Profits issued by smart contract.
+Bankrollers send ETH or BOPT to create an asset contract or back existintg contracts and make profit from bankrolling. Profits issued by smart contract.
 
 
 
@@ -242,15 +242,15 @@ Affiliates send new traders to BlockOptions.io Platform and get paid with ETH fr
 
 
 
-Token for BlockOptions.io named BOPT,  BOPT used to dividend profits generated by BlockOptions.io and also used second in-trade currency on BlockOptions.io.
+Token for BlockOptions.io named BOPT,  BOPT used to dividend profits generated by BlockOptions.io and also used as second in-trade currency on BlockOptions.io.
 
 
-**2.3.1 Tokensales**
+**2.3.1 Token sales**
 
 
 
 
-**20,000,000** Blockoptions Tokens[BOPT] will be created as Ethereum ERC20 tokens and issued during the tokensale. 
+**20,000,000** Blockoptions Tokens[BOPT] will be created as Ethereum ERC20 tokens and issued during the token sale. 
 
 No min. cap.
 
@@ -258,9 +258,9 @@ Blockoptions Tokens can be purchased with Ethereum only. All funds will be held 
 
 **2.3.2 Token distributio**
 
-**18 million** will be available for sale to tokensale participants. **No sold tokens will be burned.**
+**18 million** will be available for sale to tokensale participants.  **unsold tokens will be burned.**
 
-**1.5 million** will be retained by Blockoptions for advisors, partners, hiring, future marketing and development with 2 years vesting, unlock 25% per 6 months.
+**1.5 million** will be retained by Blockoptions for advisors, partners, hiring, future marketing and development with 2 years vesting, unlocking   25% per 6 months.
 
 **0.5 million** will be for ICO bounties and dev. reward without vesting
 
@@ -277,7 +277,7 @@ You can purchase tokens with a 50% discount (**1ETH : 400**) in our pre-sale.
 
 The pre-sale has a cap of 2500 ETH. Email: support@blockoptions.io if you would like to participate.
 
- **Tokensale Time**
+ **Token sale Time**
  
 Phase      | Time
 --------   | --------
@@ -286,7 +286,7 @@ Tokensale  | 25, Aug. 2017 - 25, Sep. 2017
 
 
 *Profit Distribution*
-BlockOptions.io Platform didn't make money from traders loss but by fee per trade (planning charge 0.005-0.01 ETH per trade, actual fee per trade will be published before public version released), and 100% of the profit will be dividented to token holders via token reward smart contract.
+BlockOptions.io Platform didn't make money from traders loss but from fee per trade (planning charge 0.005-0.01 ETH per trade, actual fee per trade will be published before public version released), and 100% of the profit will be dividented to token holders via token reward smart contract.
 
 
 **2.3.3 ICO Fund usage**
@@ -349,7 +349,7 @@ ICO continue.
 
 *3.1 How the traditional binary options brokers works*
 -------------
-The traditional binary options platform also known as the only brokers trade against traders. Traders register/login to system, funding with fiat money via credit card/PayPal/Wire transfer to broker’s account, get account credited after broker’s auditing. Trading and rewarding by broker’s server side, the price feed also provided by broker’s server side. And how much and when get your withdraw also processed by brokers. It can’t be a provably fair game as brokers makes money while traders lost.
+The traditional binary options platform also known as the only brokers trade against traders. Traders register/login to system, funding with fiat money via credit card/PayPal/Wire transfer to broker’s account, get account credited after broker’s auditing. Trading and rewarding by broker’s server side, the price feed also provided by broker’s server side. And how much and when you get your withdraw is also processed by brokers. It can’t be a provably fair game as brokers makes money while traders loss.
 
 ![enter image description here](http://i.imgur.com/T4UKlrY.jpg)
 
@@ -359,7 +359,7 @@ The traditional binary options platform also known as the only brokers trade aga
 
 Some sites claim to be blockchain binary options platform, whereas they only provide trading and withdraw with bitcoin, such as satoshioption.com, secondstrade.com and other sites you can google them with phrase: ”blockchain bianry options”. Their trading are still running based on server site informations, and the withdraw part mostly need to be manually approved. They still belong to Traditional platforms category just using the fashionable bitcoin payment method.
 
-There are  so many problems with these types of companies and so many scams, so the binary options industry is in critical state where risk and trust problems are the oder of the day. many countries have banned it or limited it.[10]
+There are  so many problems with these types of companies and so many scams, so the binary options industry is in critical state where risk and trust problems are the order of the day. many countries have banned it or limited it.[10]
 
 So we are going to rebuild the binary option industry with blockchain technology following this steps in the list below:
 
@@ -382,12 +382,11 @@ We will use smart contract service oraclize.it to fetch price from quote provide
 
 *3.2.2 MVP*
 
- 1. Traders send ETH/OPT direct from 3rd wallet, e.g. MEW to trading
-    smart contract, at the same time trading smart contract sending a
+ 1. Traders send ETH/BOPT directly from a 3rd wallet, e.g. MEW to trade. At the same time trading smart contract sends a
     transaction to Oraclize’s smart contract. After some blocks time, 30
     seconds – 1 min. Oraclize’s smart contract bring back start price.
     
- 2. And we also schedule a callback in the transaction Oraclize’s smart
+ 2. And we also schedule a callback in the transaction Oraclize’s smart contract.
 
  3. In 2 minutes + a few block time later, Oraclize callback trading
     smart contract with expiry price, traders get e.g. 175% of trading
@@ -401,7 +400,7 @@ We will use smart contract service oraclize.it to fetch price from quote provide
 
 The MVP will be release online for test before tokensale, test address will be online soon.
 
-Although the MVP is a 100% onchain system, with auto reward, 100% transparent, can’t be manipulated, guaranteed payout and provably fair, but it have some weak points need to improve urgently.
+Although the MVP is a 100% onchain system, with auto reward, 100% transparent, can’t be manipulated, guaranteed payout and provably fair, but it have some weak points that needs to improve urgently.
 
  - The start price will be delayed in 1min. 
  - Traders have to open ETH wallet to send ETH to smart contract, not very user friendly
@@ -417,7 +416,7 @@ Although the MVP is a 100% onchain system, with auto reward, 100% transparent, c
 So a build-in wallet version is needed. It will fix the start time delay, expiry time not accurate and can’t accept BTC to trade, etc problems.
 
  1. Traders create an online wallet on BlockOptions.io or import their
-    private key to BlockOptions.io as other online wallets like
+    private key to BlockOptions.io from other online wallets like
     https://www.myetherwallet.com/.
     
  2. Traders click invest button to start trading on BlockOptions.io
@@ -431,7 +430,7 @@ So a build-in wallet version is needed. It will fix the start time delay, expiry
     
  4. In 2 minutes + a few block time later, Oraclize callback trading
     smart contract with expiry price, traders get e.g. 175% of trading
-    amount as reward by trading smart contract if win or 1 gwei if lost.
+    amount as reward by trading smart contract if they win or 1 gwei if lost.
 
 ![enter image description here](http://i.imgur.com/EOfZkaI.jpg)
 
@@ -465,7 +464,7 @@ In this version we would like to achieve a less TX fee but still 100% onchain pl
     the fund to public chain from private chain.
 ![enter image description here](http://i.imgur.com/VDKL0cZ.jpg)
 
-Although in last version, the traders only need to pay once TX fee, but other TX fees still come from traders in the end. BlockOptions.io can provide the highest reward rate to traders only by reducing any costs as much as possible, in private chain + public chain version, we also can reduce the Oraclize service’s cost by bring in are own oracle service. 
+Although in last version, the traders only need to pay one TX fee, but other TX fees still come from traders in the end. BlockOptions.io can provide the highest reward rate to traders only by reducing any costs as much as possible, in private chain + public chain version, we also can reduce the Oraclize service’s cost by bring in are own oracle service. 
 
 As only need to pay 2 TX fees to complete dozens or hundreds of trades, we will be the first batch of platforms that can achieve such minimum avg. TX fee per trade on the market.
 
@@ -477,7 +476,7 @@ One big plus for using private chain to process trading, we can get back results
 
 
 
-The competition is very fierce in binary options industry, traditional binary option brokers pay more than $300 to affiliate to get a new traders. Although we believe we can and will build the best blockchain binary options platform on market, but we still need pay more attentions on marketing, PR, networking and helps from communities to achieve it. 
+The competition is very fierce in binary options industry, traditional binary option brokers pay more than $300 to affiliate to get a new traders. Although we believe we can and will build the best blockchain binary options platform on market,we still need to pay more attentions on marketing, PR, networking and helps from communities to achieve it. 
 
 
 
